@@ -375,11 +375,20 @@ class Custom_Gp_Save_Form_Public {
 //HR_ZONE_FUNCTIONS_END
 
 	public function Custom_gp_show_hr_zone_shortcode(){
-		ob_start();
-		include_once 'partials/custom-gp-save-form-public-display.php';
-		$ret = ob_get_contents();
-		ob_end_clean();
-		return $ret;
+		
+		$user_meta= get_userdata(get_current_user_id());
+		global $hr_role;
+
+		if(in_array("administrator", $user_meta->roles) || in_array( $hr_role, $user_meta->roles) ){
+			ob_start();
+			include_once 'partials/custom-gp-save-form-public-display.php';
+			$ret = ob_get_contents();
+			ob_end_clean();
+			return $ret;
+		}else{
+			wp_safe_redirect(site_url());
+			exit;
+		}
 	}
 
 	
