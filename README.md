@@ -11,8 +11,6 @@ This is a wordpress plugin for HR management.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [Wordpess](https://wordpress.org/)
 * [PhP](https://www.php.net/)
 * [JQuery](https://jquery.com)
@@ -35,8 +33,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Create a page with slug hr-zone
-2. Place this [Custom_gp_show_hr_zone_shortcode] shortcode on created page.
+1. Create a page with slug <b>hr-zone</b>
+2. Place this <b>[Custom_gp_show_hr_zone_shortcode]</b> shortcode on created page.
 
 ### Usage
 
