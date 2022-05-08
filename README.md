@@ -1,7 +1,4 @@
 <div id="top"></div>
-<!-- PROJECT LOGO -->
-<br />
-<!-- ABOUT THE PROJECT -->
 
 ### About The Project
 
@@ -15,13 +12,6 @@ This is a wordpress plugin for HR management.
 * [PhP](https://www.php.net/)
 * [JQuery](https://jquery.com)
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
