@@ -17,7 +17,7 @@
  * Plugin URI:        
  * Description:       Use this shortcode <strong>[Custom_gp_show_hr_zone_shortcode]</strong>, also use '<strong>hr-zone</strong>' page as page permalink.
  * Version:           1.1.11111
- * Author:            Rudra Innovative
+ * Author:            Expert Coder
  * Author URI:        
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

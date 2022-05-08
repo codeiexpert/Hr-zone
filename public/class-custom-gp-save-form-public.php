@@ -346,7 +346,7 @@ class Custom_Gp_Save_Form_Public {
 			$content .= '<div class="content-item">';	
 			$content .= '<p style="margin:0 !important;"><b>Thanks & Regards</b></p>';
 			$content .= '<p style="margin:0 !important;"><b>HR Department</b></p>';
-			$content .= '<p style="margin:0 !important;"><b>Rudra Innovative Software Pvt. Ltd.</b></p>';
+			$content .= '<p style="margin:0 !important;"><b>Example Software Pvt. Ltd.</b></p>';
 			$content .= '</div>';
 			$content .= '</div>';
 	
@@ -375,7 +375,7 @@ class Custom_Gp_Save_Form_Public {
 //HR_ZONE_FUNCTIONS_END
 
 	public function Custom_gp_show_hr_zone_shortcode(){
-		
+
 		$user_meta= get_userdata(get_current_user_id());
 		global $hr_role;
 
@@ -1730,8 +1730,8 @@ class Custom_Gp_Save_Form_Public {
 			$content .= '</div><br>';
 			$content .= '<div class="content-item">';	
 			$content .= '<p style="margin:0 !important;"><b>Thanks & Regards</b></p>';
-			$content .= '<p style="margin:0 !important;"><b>HR Department</b></p>';
-			$content .= '<p style="margin:0 !important;"><b>Rudra Innovative Software Pvt. Ltd.</b></p>';
+			$content .= '<p style="margin:0 !important;"><b>HR Department</b></p>';			
+			$content .= '<p style="margin:0 !important;"><b>Example Software Pvt. Ltd.</b></p>';
 			$content .= '</div>';
 			$content .= '</div>';
 	

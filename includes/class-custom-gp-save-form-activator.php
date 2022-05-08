@@ -18,7 +18,7 @@
  * @since      1.0.0
  * @package    Custom_Gp_Save_Form
  * @subpackage Custom_Gp_Save_Form/includes
- * @author     Yoginder Singh <yoginder@rudrainnovative.in>
+ * @author     Expert Coder <codeiexpert82@gmail.com>
  */
 class Custom_Gp_Save_Form_Activator {
 

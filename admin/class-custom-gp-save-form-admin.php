@@ -141,12 +141,12 @@ class Custom_Gp_Save_Form_Admin {
 
 	// Function to change email address
 	public function wpb_sender_email( $original_email_address ) {
-		return 'hr@rudrainnovatives.com';
+		return 'codeiexpert82@gmail.com';
 	}
 	
 	// Function to change sender name
 	public function wpb_sender_name( $original_email_from ) {
-		return 'HR RUDRA';
+		return 'HR';
 	}
 
 	function hrZoneFunction() { 

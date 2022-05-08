@@ -60,7 +60,7 @@
                                         <label for="hr-interview-location" class="form-label py-2 m-0">Add Interview Location</label>
                                     </div>
                                     <div class="input-field">
-                                        <input type="text" id="hr-interview-location" value="Rudra Innovative Software Private Limited" class="form-control">
+                                        <input type="text" id="hr-interview-location" value="Example Software Private Limited" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6" id="hr-interview-webconference-content" style="display:none;">
