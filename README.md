@@ -38,7 +38,7 @@ This is a wordpress plugin for HR management.
     2. Check assigned forms & user in dashboard.
         <img src="screenshots/dashboard.png" alt="Dashaboard"><br>
     3. Schedule & reschedule interviews (online / onsite interview).
-        <img src="screenshots/scheduled-int<br>erviews.png" alt="scheduled-interviews"><br>
+        <img src="screenshots/scheduled-interviews.png" alt="scheduled-interviews"><br>
     4. Check & Modify email templates for interviewer, hr & candidate with custom placeholders.
         <img src="screenshots/email-templates.png" alt="scheduled-interviews"><br>
     5. Check scheduled interviews & histroy of interviews.
