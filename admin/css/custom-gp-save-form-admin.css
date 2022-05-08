@@ -1,0 +1,188 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .gp-form-select {
+    border: 1px solid #00000059;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    border: 1px solid#dc3545;
+    color: #fff;
+    padding: 5px;
+    margin: 6px 0;
+    border-radius: 4px;
+    background: #dc3545;
+}
+
+.alert-success {
+    border: 1px solid #28a745;
+    color: #fff;
+    padding: 5px;
+    margin: 6px 0;
+    border-radius: 4px;
+    background: #28a745;
+}
+
+.hr-seleted-form-data{
+    padding: 10px;
+    background: #fff;
+    margin: 15px 13px 15px 0;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+
+.child span.dtr-title {
+    font-weight: bold;
+}
+
+#hr-selected-form-table_length select{
+    width: 50px;
+}
+
+#hr-selected-form-table{
+    width: 100% !important;
+}
+/* spinner */
+
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+    content:'';
+    display:block;
+    position:relative;
+    margin: 0 auto;
+    width:20px;
+    height:20px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 3px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+#mini-spin::after {
+    content:'';
+    display: block;
+    position:relative;
+    width: 10px;
+    height: 10px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 2px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+
+.select-form-hr {
+    display: flex;
+    align-items: center;
+}
+
+.select-form-hr #mini-spin {
+    margin-left: 8px;
+}
+
+.xdsoft_datetimepicker {
+    z-index: 11111111 !important;
+}
+
+
+/* #authorize_button, #signout_button{
+    float: right;
+} */
+
+.email-temp-sec{
+    background-color: #fff;
+    border: 1px solid #00000045;
+    border-radius: 4px;
+}
+
+.email-temp-sec label{
+    font-weight: bold;
+}
+
+.gp-save-email-template-content{
+    margin-bottom: 10px;
+}
+
+.email-subject, .email-subject-interviewer, .email-subject-hr{
+    width: 100%;
+}
+
+.gp-save-email-content-submit {
+    margin: 10px 20px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+#gp-save-form-dialog input, #gp-save-form-dialog select, #gp-save-form-dialog label , .gp-save-editor {
+    width: 300px;
+    margin: 8px 8px;
+}
+
+#gp-save-form-dialog {
+    display: flex;
+}
+
+.label{
+    font-weight: bold;
+}
+.gp-submit-email-content, .gp-save-editor{
+    width: 100%;
+}
+
+
+.gp-submit-email-content #wp-gp-save-mail-send-wrap {
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tab-active{color:white;background:darkseagreen;}
+.tabsingle{display:inline-block;padding:10px 30px;outline:1px solid #00000030;}
+.targetdiv{padding:20px;border:1px solid #00000030;}
+
+.gp-save-top-content{
+    margin:0 auto;
+}
+textarea#gp-additonal-comments{
+    width:100%;
+}
+
+
+.main-d{
+    background: #fff;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+
+#gp-save-select-form {
+    max-width: 100%;
+    width: 100%;
+}
+#g-meet-url{
+    width: 100%;
+}
