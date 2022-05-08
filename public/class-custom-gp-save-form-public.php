@@ -113,7 +113,7 @@ class Custom_Gp_Save_Form_Public {
 		if(is_page('hr-zone')){		
 			
 		
-			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/custom-gp-save-form-public.js', array( 'jquery' ), $this->version, false );
+			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/custom-gp-save-form-public.min.js', array( 'jquery' ), $this->version, false );
 			wp_enqueue_script( 'datatable-public-1', plugin_dir_url( __FILE__ ) . 'js/dataTable/bootstrap.bundle.min.js', $this->version, false );
 			wp_enqueue_script( 'moment-min-public', plugin_dir_url( __FILE__ ) . 'js/moment.min.js', $this->version, false );
 		
