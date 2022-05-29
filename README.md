@@ -14,19 +14,6 @@ This is a wordpress plugin for HR management.
 * [JQuery](https://jquery.com)
 
 
-### Prerequisites
-
-* Only Admin and Subscriber have access.
-* Plugin is specially for HR.
-* This is a just an demo, not for commercial use.
-* Gravity Form plugin is required.
-* Setup SMTP settings for sending emails.
-
-### Installation
-
-1. Create a page with slug <b>hr-zone</b>
-2. Place this <b>[Custom_gp_show_hr_zone_shortcode]</b> shortcode on created page.
-
 ### Usage
 
 * Admins
